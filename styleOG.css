@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Barriecito',
+        cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("RickAndMorty.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.layer {
+    background-color: rgba(138, 38, 189, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+}
+
+.key {
+    width: 90px;
+    height: 90px;
+    border: 4px rgb(138, 38, 189) solid;
+    border-radius: 20px;
+    padding: 10px 2px 10px 2px;
+    margin: 10px;
+    z-index: 2;
+    background-color: rgb(220, 235, 80);
+    color: rgb(138, 38, 189);
+    font-family: 'Barriecito', cursive;
+}
+
+.key>kbd,
+span {
+    display: block;
+    text-align: center;
+
+}
+
+.key>kbd {
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+.key>span {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+* {
+    cursor: url("Portal gun.cur"), default;
+}
+
